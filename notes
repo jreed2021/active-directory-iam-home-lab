@@ -1,0 +1,184 @@
+---
+
+# Active Directory IAM Home Lab
+
+## Overview
+
+This project documents my hands-on Identity and Access Management (IAM) home lab built using VirtualBox and Windows Server 2022. The goal of this lab is to simulate real-world IAM tasks such as user provisioning, group management, password policy enforcement, and authentication monitoring using Active Directory.
+
+---
+
+# Lab Environment
+
+Host Machine
+Windows 11 laptop
+
+Virtualization Software
+Oracle VirtualBox
+
+Server Operating System
+Windows Server 2022 Standard Evaluation (Desktop Experience)
+
+Directory Service
+Active Directory Domain Services (AD DS)
+
+Domain Name
+corp.local
+
+Server Role
+Domain Controller
+
+---
+
+# What is VirtualBox?
+
+VirtualBox is a virtualization platform that allows multiple operating systems to run on a single computer.
+
+In this lab, VirtualBox is used to simulate a corporate network environment by running a Windows Server virtual machine inside my main computer.
+
+This allows safe testing and experimentation without affecting the host system.
+
+---
+
+# What is a Domain Controller?
+
+A Domain Controller is a server that manages authentication and access control within a network.
+
+The Domain Controller is responsible for:
+
+• verifying user logins
+• managing user accounts
+• controlling password policies
+• enforcing security policies
+• managing access to network resources
+
+In this lab, the Windows Server VM was promoted to a Domain Controller for the domain:
+
+corp.local
+
+---
+
+# What is Active Directory?
+
+Active Directory is Microsoft’s directory service used to manage identities and access within a network.
+
+Active Directory stores information about:
+
+• users
+• computers
+• groups
+• permissions
+• security policies
+
+It allows administrators to centrally control authentication and authorization across the organization.
+
+---
+
+# Identity and Access Management Concepts Practiced
+
+This lab focuses on core IAM concepts including:
+
+User provisioning
+Creating new user accounts in Active Directory
+
+Authentication
+Verifying user identity during login
+
+Authorization
+Controlling what resources a user can access
+
+Role-Based Access Control (RBAC)
+Assigning permissions through security groups
+
+Least Privilege
+Giving users only the access necessary for their role
+
+Account Lifecycle Management
+Creating, modifying, disabling, and removing user accounts
+
+---
+
+# Lab Progress
+
+Completed Tasks:
+
+• Installed Oracle VirtualBox
+• Created Windows Server 2022 virtual machine
+• Installed Windows Server 2022 Standard Evaluation
+• Installed Active Directory Domain Services (AD DS)
+• Promoted the server to a Domain Controller
+• Created the domain: corp.local
+• Opened Active Directory Users and Computers
+• Created the first domain user account: Sarah Jones (sjones)
+
+---
+
+# IAM Task Example: User Provisioning
+
+Example onboarding task:
+
+New Employee: Sarah Jones
+Department: Finance
+
+Steps performed:
+
+1. Open Active Directory Users and Computers
+2. Navigate to Users container
+3. Right-click → New → User
+4. Enter employee information
+5. Assign username (sjones)
+6. Set temporary password
+7. Require password change at first login
+
+This simulates the onboarding process performed by IAM or IT helpdesk teams.
+
+---
+
+# Security Monitoring (Future Lab Work)
+
+Later stages of this lab will include reviewing authentication logs using Windows Event Viewer.
+
+Important security events include:
+
+4624 – Successful login
+4625 – Failed login attempt
+4720 – User account created
+4726 – User account deleted
+4732 – User added to group
+
+Monitoring these logs helps security teams detect suspicious authentication activity.
+
+---
+
+# Next Steps
+
+Planned improvements to the lab:
+
+• Create Organizational Units (OUs)
+• Create department security groups
+• Implement Role-Based Access Control (RBAC)
+• Configure password policies
+• Configure account lockout policies
+• Simulate onboarding and offboarding scenarios
+• Monitor authentication events
+
+---
+
+# Skills Demonstrated
+
+Active Directory Administration
+Identity and Access Management
+User Provisioning
+Domain Controller Configuration
+Authentication Monitoring
+Windows Server Administration
+
+---
+
+# Interview Talking Point
+
+I built a Windows Server Active Directory home lab using VirtualBox where I configured a Domain Controller and practiced IAM tasks including user provisioning, role-based access control, password policy enforcement, and authentication monitoring.
+
+---
+
+If you'd like, I can also give you **one small GitHub trick that makes IAM projects look very professional** (most beginners don’t know it, but recruiters love it).
