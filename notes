@@ -132,8 +132,25 @@ Steps performed:
 
 This simulates the onboarding process performed by IAM or IT helpdesk teams.
 
+RBAC Implementation
 
+Security groups were created to simulate role-based access control.
+
+Groups created:
+Finance
+HR
+Helpdesk
+IT_Admins
+
+Users were assigned to groups based on job role.
+
+Example:
+Sarah Jones → Finance group
+
+This allows administrators to manage permissions at the group level instead of assigning permissions directly to individual users.
 ---
+
+
 
 # Security Monitoring (Future Lab Work)
 
