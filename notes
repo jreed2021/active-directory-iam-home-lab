@@ -132,6 +132,7 @@ Steps performed:
 
 This simulates the onboarding process performed by IAM or IT helpdesk teams.
 
+
 ---
 
 # Security Monitoring (Future Lab Work)
@@ -175,10 +176,3 @@ Windows Server Administration
 
 ---
 
-# Interview Talking Point
-
-I built a Windows Server Active Directory home lab using VirtualBox where I configured a Domain Controller and practiced IAM tasks including user provisioning, role-based access control, password policy enforcement, and authentication monitoring.
-
----
-
-If you'd like, I can also give you **one small GitHub trick that makes IAM projects look very professional** (most beginners don’t know it, but recruiters love it).
