@@ -45,7 +45,7 @@ Virtual machines allow cybersecurity professionals to simulate enterprise networ
 A new virtual machine was created with:
 
 Memory: 4096 MB
-CPU: 1 Processor
+CPU: 2 Processor
 Disk: 50 GB
 
 Windows Server 2022 was installed using the Microsoft evaluation ISO.
