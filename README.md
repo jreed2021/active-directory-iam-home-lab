@@ -1,5 +1,5 @@
 # active-directory-iam-home-lab
-Hands-on Identity and Access Managment home lab using VirtualBox, Windows Server 2022, and Active Directory
+Hands-on Identity and Access Management home lab using VirtualBox, Windows Server 2022, and Active Directory
 
 ## Active Directory IAM Home Lab – Windows Server 2022
 
@@ -122,6 +122,29 @@ This demonstrates **RBAC (Role-Based Access Control)**, a core Identity and Acce
 
 ---
 
+# Step 7 - IAM Ticket Simulation
+
+To simulate real-world IAM operations, GitHub Issues were used as a helpdesk ticketing system.
+
+Example ticket workflow implemented:
+
+Ticket: Password Reset Request - Sarah Jones
+
+Issue:
+User unable to log in to domain account. 
+
+IAM Action Performed:
+Password reset in Active Directory.
+
+Verification:
+Confirmed password reset in active directory Users and Computers.
+Enabled "User must change password at next logon."
+
+Ticket Status:
+Closed as complete.
+
+This simulates a common IAM helpdesk workflow used in enterprise environments. 
+
 # IAM Concepts Demonstrated
 
 Identity Lifecycle Management
@@ -129,6 +152,8 @@ User Account Provisioning
 Active Directory Domain Services
 Role-Based Access Control (RBAC)
 Centralized Authentication
+Password Reset Workflow
+IAM Ticket Documentation
 Domain Controller Architecture
 
 ---
@@ -148,6 +173,30 @@ Domain Controller Architecture
 
 ---
 
+# Lab Architecture
+
+Host Machine
+Windows 11
+
+Virtualization Platform
+Oracle VirtualBox
+
+Virtual Machine
+Windows Server 2022
+
+Domain
+corp.local
+
+Domain Controller
+Windows Server 2022
+
+Users Created
+sjones (Sarah Jones)
+
+Security Groups
+Finance 
+HR
+
 # Future Enhancements
 
 This lab will continue with:
@@ -157,6 +206,7 @@ Password policies
 Account lockout configuration
 Helpdesk password reset delegation
 Domain-joined workstation testing
+Additional IAM helpdesk ticket simulations
 
 ---
 
@@ -166,6 +216,9 @@ Active Directory Administration
 Identity and Access Management
 Windows Server Administration
 RBAC Implementation
+User Provisioning
+Password Reset Management
+IAM Ticket Workflow Documentation
 Enterprise Directory Services
 
 ---
