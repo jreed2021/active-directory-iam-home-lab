@@ -137,13 +137,32 @@ IAM Action Performed:
 Password reset in Active Directory.
 
 Verification:
-Confirmed password reset in active directory Users and Computers.
+Confirmed password reset in Active Directory Users and Computers.
 Enabled "User must change password at next logon."
 
 Ticket Status:
 Closed as complete.
 
 This simulates a common IAM helpdesk workflow used in enterprise environments. 
+
+# Identity Lifecycle Example - Sarah Jones
+
+Provisioning
+Created Active Directory user account for Sarah Jones.
+
+Access Assignment 
+Added user to Finance RBAC security group
+
+Access Modification
+Added user to HR security group for cross-department reporting access.
+
+Credential Management
+Performed password reset and enforced password change at next logon.
+
+Offboarding
+Disabled the user account to revoke authentication and systen access.
+
+This demonstrates a complete Identity and Access Management lifecycle within an enterprise directory environment.
 
 # IAM Concepts Demonstrated
 
@@ -201,8 +220,8 @@ HR
 
 This lab will continue with:
 
-Group Policy (GPO)
-Password policies
+Group Policy (GPO) implementation
+Password complexity policies
 Account lockout configuration
 Helpdesk password reset delegation
 Domain-joined workstation testing
@@ -218,6 +237,7 @@ Windows Server Administration
 RBAC Implementation
 User Provisioning
 Password Reset Management
+Account Lifecycle Management
 IAM Ticket Workflow Documentation
 Enterprise Directory Services
 
