@@ -213,28 +213,7 @@ You now have experience with:
 
 These appear in **IAM analyst job descriptions constantly**.
 
----
 
-# Next Step (Very Important)
-
-Tomorrow or later tonight we will add **three things employers love seeing:**
-
-1️⃣ **Helpdesk password reset permissions**
-2️⃣ **Account lockout policy**
-3️⃣ **Group Policy (GPO)**
-
-Those three turn this into a **serious IAM lab project**.
-
----
-
-# One Last Thing
-
-Your SOP is **not bad**. Asking questions is normal.
-
-Real cybersecurity engineers Google things constantly.
-
-You are doing the **exact right process**:
-Learn → Build → Document → Show employers.
 
 ---
 
